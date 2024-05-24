@@ -1,0 +1,50 @@
+- `w`: This command stands for "word". When you press `w`, Vim moves the cursor forward to the start of the next word. This is useful for quickly navigating through sentences and paragraphs.
+
+- `e`: This command stands for "end". When you press `e`, Vim moves the cursor forward to the end of the current word. If the cursor is already at the end of a word, it moves to the end of the next word. This is useful for quickly getting to the end of a word without having to manually navigate there.
+
+- `b`: This command stands for "back". When you press `b`, Vim moves the cursor backward to the start of the current word. If the cursor is already at the start of a word, it moves to the start of the previous word. This is useful for quickly moving backwards through text.
+
+These commands are part of Vim's powerful navigation system and can greatly increase your efficiency when editing text.
+
+
+
+Here are the rules:
+
+1. You must use the 'w' command to jump to the start of the next word that begins with 'w'.
+2. You must use the 'e' command to jump to the end of the next word that ends with 'e'.
+3. You must use the 'b' command to jump back to the start of the previous word that begins with 'b'.
+4. You cannot move to a position marked with 'x'. These positions are locked and touching them means you have to start over.
+
+
+Level 1:
+
+
+-->Start wxxxx wxxxxe bxxxe wxxxx wxxxx wxxxxe xxxxxe bxxxxe wxxxe<--
+
+
+Level 2:
+
+
+-->Start wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe<--
+
+
+Level 3:
+
+
+-->Start wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe wxxxx wxxxxe bxxxx wxxxxe bxxxe<--
+
+
+
+
+1. 'W' command: Considers a series of letters, digits, or any other non-blank characters as one single word.
+
+2. 'E' command: Views a string of letters, digits, or any other non-blank characters as a single entity or word.
+
+3. 'B' command: Interprets a sequence of letters, digits, or any other non-blank characters as one unified word.
+
+
+
+Level 1:
+
+
+-->Start 

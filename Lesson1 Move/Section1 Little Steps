@@ -1,0 +1,63 @@
+In Vim, the keys 'h', 'j', 'k', and 'l' are used for navigation. This key mapping dates back to the days of terminals and keyboards without arrow keys and has been preserved in Vim to this day.
+
+- 'h': Moves the cursor to the left
+- 'j': Moves the cursor down
+- 'k': Moves the cursor up
+- 'l': Moves the cursor to the right
+
+These keys allow you to navigate through the text without moving your hands from the home row of the keyboard, increasing efficiency. It may take some time to get used to, but many Vim users find this method of navigation to be very effective.
+
+
+Level 1:
+
+-->**********
+            *
+            *
+            *
+            *
+            *
+    *********
+    *            *************<--               
+    *            *
+    **************
+
+
+
+
+Level 2:
+
+-->*********************
+                       *                           
+    *********          *         ****
+    *       *          *         *  *
+    *       *          ***********  *
+    *       *                       *
+    *       *************           *
+    *                   *           *
+    ******<--           *************
+
+
+
+
+Level 3:
+
+
+-->****   **********************     *******************
+      *   *                    *     *                 *
+      *   *                    *******  *********      *
+      *   *     *************           *       ********
+      *   *     *           *           *
+*******   *     *           *************
+*         *     *
+*         *     *              *****************
+*         *     *              *               *
+*      ****     ****************               *
+*      *                                       *
+*      *                                       *
+********                        ****************
+            ***********         *
+            *         *         *
+            *         *         **********
+            *         ******<--          *
+            *                            *
+            ******************************
